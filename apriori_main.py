@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 import os
 
+# Kaffa Beauty Shop (Apriori Association Rule)
 
 def apriori(data, minSup, minConf=0.7):
 
