@@ -1,10 +1,6 @@
 import pandas as pd
 import streamlit as st
 import os
-import streamlit as st
-
-st.title('This is a title')
-st.title('_Association Rule Apriori_')
 
 def apriori(data, minSup, minConf=0.7):
 
@@ -218,6 +214,8 @@ def prepare_data(D):
 
 
 #################### ? UI start here ################################
+st.title('This is a title')
+st.title('_Association Rule Apriori_')
 
 datasetLocation = {
     "fromSlide.csv": 'DataSet/fromSlide.csv',
