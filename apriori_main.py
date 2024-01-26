@@ -3,9 +3,15 @@ import pandas as pd
 import streamlit as st
 import os
 
-"""
-# Kaffa Beauty Shop (Apriori Association Rule)
-"""
+st.set_page_config(page_title='home - mureco',
+                   page_icon=':musical_note:',
+                   layout='wide',
+                   menu_items={
+                       'Get Help': None,
+                       'Report a bug': None,
+                       'About': 'K. Wong'
+                   }
+                   )
 
 def apriori(data, minSup, minConf=0.7):
 
