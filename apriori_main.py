@@ -1,17 +1,10 @@
-
 import pandas as pd
 import streamlit as st
 import os
+import streamlit as st
 
-st.set_page_config(page_title='home - mureco',
-                   page_icon=':musical_note:',
-                   layout='wide',
-                   menu_items={
-                       'Get Help': None,
-                       'Report a bug': None,
-                       'About': 'K. Wong'
-                   }
-                   )
+st.title('This is a title')
+st.title('_Association Rule Apriori_')
 
 def apriori(data, minSup, minConf=0.7):
 
