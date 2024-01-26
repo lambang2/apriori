@@ -214,8 +214,9 @@ def prepare_data(D):
 
 
 #################### ? UI start here ################################
-st.title('This is a title')
-st.title('_Association Rule Apriori_')
+
+st.header('This is a header with a divider', divider='rainbow')
+st.header('_Streamlit_ is :blue[cool] :sunglasses:')
 
 datasetLocation = {
     "fromSlide.csv": 'DataSet/fromSlide.csv',
