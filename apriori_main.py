@@ -216,10 +216,10 @@ def prepare_data(D):
 #################### ? UI start here ################################
 
 st.header('Toko Kaffa Beauty Shop', divider='rainbow')
-st.header('Association Rule :blue[Algoritma Apriori] :')
+st.header('Association Rule :blue[Algoritma Apriori]')
 
 datasetLocation = {
-    "fromSlide.csv": 'DataSet/JULICSV.csv',
+    "JULICSV.csv": 'DataSet/JULICSV.csv',
     "AGUSTUSCSV.csv": 'DataSet/AGUSTUSCSV.csv',
     "SEPTEMBERCSV.csv": 'DataSet/SEPTEMBERCSV.csv',
     "OKTOBERCSV.csv":'DataSet/OKTOBERCSV.csv',
