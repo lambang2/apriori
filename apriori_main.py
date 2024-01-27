@@ -215,8 +215,8 @@ def prepare_data(D):
 
 #################### ? UI start here ################################
 
-st.header('This is a header with a divider', divider='rainbow')
-st.header('_Streamlit_ is :blue[cool] :sunglasses:')
+st.header('Toko Kaffa Beauty Shop', divider='rainbow')
+st.header('Association Rule :blue[Algoritma Apriori] :sunglasses:')
 
 datasetLocation = {
     "fromSlide.csv": 'DataSet/JULICSV.csv',
