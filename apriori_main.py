@@ -205,7 +205,7 @@ def prepare_data(D):
     return data
 
 # lines = []
-# with open("DataSet/fromSlide.csv", "r") as f:
+# with open("DataSet/JULICSV.csv", "r") as f:
 #     for line in f.readlines():
 #         lines.append(line.split(','))
 #         # if line.strip("\n") != delLine:
@@ -219,9 +219,12 @@ st.header('This is a header with a divider', divider='rainbow')
 st.header('_Streamlit_ is :blue[cool] :sunglasses:')
 
 datasetLocation = {
-    "fromSlide.csv": 'DataSet/fromSlide.csv',
-    "retail_dataset.csv": 'DataSet/retail_dataset.csv',
-    "tesco.csv": 'DataSet/tesco.csv',
+    "fromSlide.csv": 'DataSet/JULICSV.csv',
+    "AGUSTUSCSV.csv": 'DataSet/AGUSTUSCSV.csv',
+    "SEPTEMBERCSV.csv": 'DataSet/SEPTEMBERCSV.csv',
+    "OKTOBERCSV.csv":'DataSet/OKTOBERCSV.csv',
+    "NOVEMBERCSV.csv": 'DataSet/NOVEMBERCSV.csv',
+    "DESEMBERCSV.csv": 'DataSet/DESEMBERCSV.csv',    
 }
 
 selected = st.selectbox(label='Pick dataset', options=datasetLocation.keys())
