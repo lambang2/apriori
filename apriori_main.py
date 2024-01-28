@@ -1,6 +1,8 @@
+
 import pandas as pd
 import streamlit as st
 import os
+
 
 def apriori(data, minSup, minConf=0.7):
 
@@ -205,7 +207,7 @@ def prepare_data(D):
     return data
 
 # lines = []
-# with open("DataSet/JULICSV.csv", "r") as f:
+# with open("DataSet/fromSlide.csv", "r") as f:
 #     for line in f.readlines():
 #         lines.append(line.split(','))
 #         # if line.strip("\n") != delLine:
